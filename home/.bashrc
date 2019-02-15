@@ -30,6 +30,7 @@ eval "$(shopt -p | grep globstar)"
 bind -m vi-insert "\C-l":clear-screen
 bind -m vi-insert "\C-p":previous-history
 bind -m vi-insert "\C-n":next-history
+bind -f  ~/.inputrc
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
