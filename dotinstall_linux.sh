@@ -5,6 +5,7 @@ homesick clone nbraem/dotfiles && homesick symlink dotfiles --force
 homesick clone nbraem/dotvim && homesick symlink dotvim
 source ~/.bashrc
 sudo apt-get install -y exuberant-ctags silversearcher-ag software-properties-common
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 # vim 8
 sudo add-apt-repository -y ppa:jonathonf/vim
