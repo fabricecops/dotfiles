@@ -1,13 +1,13 @@
 #!/bin/bash
-sudo apt-get install -y ruby
+apt-get install -y ruby
 sudo gem install homesick 
-homesick clone nbraem/dotfiles && homesick symlink dotfiles --force
-homesick clone nbraem/dotvim && homesick symlink dotvim
+homesick clone fabricecops/dotfiles && homesick symlink dotfiles --force
+homesick clone fabricecops/dotvim && homesick symlink dotvim
 source ~/.bashrc
-sudo apt-get install -y exuberant-ctags silversearcher-ag software-properties-common
+apt-get install -y exuberant-ctags silversearcher-ag software-properties-common
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 # vim 8
-sudo add-apt-repository -y ppa:jonathonf/vim
-sudo apt-get update
-sudo apt-get install -y vim
+add-apt-repository -y ppa:jonathonf/vim
+apt-get update
+apt-get install -y vim

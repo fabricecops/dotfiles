@@ -90,3 +90,16 @@ fi
 fixssh() {
     eval $(tmux show-env -s |grep '^SSH_')
 }
+alias "..=cd .."
+alias "k=kubectl"
+alias "kgp=kubectl get pods"
+alias "kdp=kubectl describe pod"
+alias "kl=kubectl logs"
+alias "kexec=kubectl exec -it"
+alias "hl=helm list"
+alias "h=helm"
+alias "kgs=kubectl"
+alias "kd=kubectl describe"
+alias "kg=kubectl get"
+alias "kgep=kubectl get ep"
+
